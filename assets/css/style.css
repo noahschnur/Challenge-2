@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #677079;
+    background-color: #a2a9b1;
 }
 
 /* Header Styling Start*/
@@ -20,6 +20,9 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    background-color: #ca6d6d;
+    padding-left: 100px;
+    padding-right: 10px;
 }
 
 .header div {
@@ -42,4 +45,41 @@ body {
 a {
     color: #ca6d6d;
     text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid;
+}
+
+/* Header Styling End */
+
+/* Hero Styling */
+
+.hero {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pattern.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/*Alignment*/
+
+.content {
+    display: inline-block;
+}
+
+.content h2 {
+    float: left;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 30px 50px;
+    border-right: 5px solid #ca6d6d;
+}
+
+.content p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 30px 50px;
 }
