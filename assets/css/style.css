@@ -91,6 +91,16 @@ a {
 
 /* About Me Style */
 
+.about-me h2 {
+    height: 500px;
+    padding-bottom: 30px;
+}
+
+.about-me p {
+    align-content: flex-end;
+    justify-content: flex-start;
+    padding: 5px;
+}
 /* Work Style */
 
 /* Contact Me Style */
