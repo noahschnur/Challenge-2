@@ -63,7 +63,7 @@ a {
     background-repeat: repeat;
 }
 
-/*Alignment*/
+/*Align All Paragraphs*/
 
 .content {
     display: inline-block;
@@ -88,3 +88,23 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
+
+/* About Me Style */
+
+/* Work Style */
+
+/* Contact Me Style */
+
+.contact-me {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-me a {
+    color: #2a607c;
+    
+}
+
+/* Resume Style */
