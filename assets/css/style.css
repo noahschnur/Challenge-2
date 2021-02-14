@@ -72,7 +72,7 @@ a {
 .content h2 {
     float: left;
     flex-wrap: wrap;
-    width: 30%;
+    width: 20%;
     padding: 45px 50px;
     border-right: 3px solid #ca6d6d;
     color: #2a607c;
@@ -92,7 +92,7 @@ a {
 /* About Me Style */
 
 .about-me h2 {
-    height: 200px;
+    height: 170px;
     padding-bottom: 30px;
 }
 
@@ -107,16 +107,16 @@ a {
 
 .work h2 {
     margin-top: 20px;
-    height: 500px;
+    height: 850px;
 }
 
 .run-buddy img {
     display: flex;
-    justify-content: center;
+    align-content: center;
     border: 3px solid #ca6d6d;
+    margin: 50px 0 10px 50px;
     width: 800px;
     height: 350px;
-
 }
 
 .placeholders {
@@ -126,39 +126,17 @@ a {
     flex-wrap: wrap;
 }
 
-.placeholder-1 img {
+.placeholder-1 img, .placeholder-2 img, .placeholder-3 img, .placeholder-4 img {
     display: flex;
     align-content: center;
     justify-content: flex-start;
     border: 3px solid #ca6d6d;
+    margin: 5px 20px 10px 20px;
     width: 400px;
-    height: 350px;
+    height: 250px;
 }
 
-.placeholder-2 img {
-    display: flex;
-    align-content: center;
-    justify-content: flex-start;
-    border: 3px solid #ca6d6d;
-    width: 400px;
-    height: 350px;
-}
-
-.placeholder-3 img {
-    align-content: center;
-    justify-content: flex-start;
-    border: 3px solid #ca6d6d;
-    width: 400px;
-    height: 350px;
-}
-
-.placeholder-4 img {
-    align-content: center;
-    justify-content: flex-start;
-    border: 3px solid #ca6d6d;
-    width: 400px;
-    height: 350px;
-}
+/* End Work Style */
 
 /* Contact Me Style */
 
