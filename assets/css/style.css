@@ -92,7 +92,7 @@ a {
 /* About Me Style */
 
 .about-me h2 {
-    height: 500px;
+    height: 200px;
     padding-bottom: 30px;
 }
 
@@ -100,9 +100,21 @@ a {
     align-content: flex-end;
     justify-content: flex-start;
     padding: 5px;
+    margin-bottom: 10px;
 }
+
 /* Work Style */
 
+.work h2 {
+    margin-top: 20px;
+}
+
+.work img {
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+    width: 500px;
+}    
 /* Contact Me Style */
 
 .contact-me {
