@@ -92,15 +92,22 @@ a {
 /* About Me Style */
 
 .about-me h2 {
-    height: 170px;
+    height: 465px;
     padding-bottom: 30px;
 }
 
 .about-me p {
+    display: flex;
     align-content: flex-end;
     justify-content: flex-start;
     padding: 5px;
     margin-bottom: 10px;
+}
+
+.about-me img {
+    display: inline-block;
+    height: 150px;
+    width: 190px;
 }
 
 /* Work Style */
