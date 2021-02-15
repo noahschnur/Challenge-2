@@ -92,7 +92,7 @@ a {
 /* About Me Style */
 
 .about-me h2 {
-    height: 465px;
+    height: 485px;
     padding-bottom: 30px;
 }
 
@@ -162,7 +162,57 @@ img:hover {
 
 .contact-me a {
     color: #2a607c;
-    
 }
 
 /* Resume Style */
+
+.resume p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+    .header {
+        padding: 70px;
+        width: 100%;
+    }
+    
+    .header h1 {
+        font-size: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .header div {
+        width: 100%;    
+    }
+
+    .content h2 {
+        width: 25%;
+    }
+
+    .about-me h2 {
+        height: 450px;
+        padding-bottom: 50px;
+    }
+
+    .work h2 {
+        margin-top: 30px;
+        height: 600px;
+    }
+
+    .run-buddy img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .row img {
+        width: 200px;
+        height: 125px;
+    }
+
+}
