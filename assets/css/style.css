@@ -173,7 +173,7 @@ img:hover {
     padding: 5px;
 }
 
-/* Media Queries */
+/* Media Query Small Computer */
 
 @media screen and (max-width: 980px) {
     .header {
@@ -215,4 +215,20 @@ img:hover {
         height: 125px;
     }
 
+}
+
+/* Media Query Tablets */
+
+@media screen and (max-width: 768px) {
+    .about-me h2 {
+        height: 500px;
+    }
+}
+
+/* Media Query Phones */
+
+@media screen and (max-width: 575px) {
+    .about-me h2 {
+        height: 605px;
+    }
 }
