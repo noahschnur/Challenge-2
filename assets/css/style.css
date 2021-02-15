@@ -107,31 +107,31 @@ a {
 
 .work h2 {
     margin-top: 20px;
-    height: 850px;
+    height: 950px;
 }
 
 .run-buddy img {
     display: flex;
-    align-content: center;
+    justify-content: flex-end;
     border: 3px solid #ca6d6d;
     margin: 50px 0 10px 50px;
     width: 800px;
     height: 350px;
 }
 
-.placeholders {
+.container {
     display: flex;
     align-content: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.placeholder-1 img, .placeholder-2 img, .placeholder-3 img, .placeholder-4 img {
+.row img {
     display: flex;
-    align-content: center;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 3px solid #ca6d6d;
-    margin: 5px 20px 10px 20px;
+    margin: 20px 0 30px 0;
     width: 400px;
     height: 250px;
 }
